@@ -1,0 +1,35 @@
+body{
+    background-color: #CCD5AE;
+}
+#product-container{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2px 16px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.product-card{
+    
+    background:#FEFAE0;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 18em;
+    margin: 1em 1em;
+    padding: 3px 3px;
+}
+
+.product-card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.search{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    margin: 1em;
+}
